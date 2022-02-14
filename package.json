@@ -1,0 +1,58 @@
+{
+  "name": "egg-unipush",
+  "version": "1.0.0",
+  "description": "egg plugin for unipush",
+  "eggPlugin": {
+    "name": "unipush"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "uniapp",
+    "unipush",
+    "推送通知"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "autod": "^3.1.1",
+    "autod-egg": "^1.1.0",
+    "egg": "^2.30.0",
+    "egg-bin": "^4.16.4",
+    "egg-ci": "^1.19.0",
+    "egg-mock": "^3.26.0",
+    "eslint": "^7.32.0",
+    "eslint-config-egg": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
+    "pkgfiles": "egg-bin pkgfiles",
+    "autod": "autod"
+  },
+  "files": [
+    "app.js",
+    "agent.js",
+    "config",
+    "app"
+  ],
+  "ci": {
+    "version": "8, 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/undsky/egg-unipush.git"
+  },
+  "bugs": {
+    "url": "https://github.com/undsky/egg-unipush/issues"
+  },
+  "homepage": "https://github.com/eggjs/egg-unipush#readme",
+  "author": "姜彦汐 https://www.undsky.com",
+  "license": "MIT"
+}
