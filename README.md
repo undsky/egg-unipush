@@ -1,6 +1,7 @@
 # egg-unipush
 
-> egg plugin for unipush
+> Egg plugin for unipush
+
 
 ## 安装
 

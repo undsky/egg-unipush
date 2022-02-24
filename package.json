@@ -1,7 +1,7 @@
 {
   "name": "egg-unipush",
   "version": "1.0.0",
-  "description": "egg plugin for unipush",
+  "description": "Egg plugin for unipush",
   "eggPlugin": {
     "name": "unipush"
   },
@@ -11,6 +11,8 @@
     "egg-plugin",
     "uniapp",
     "unipush",
+    "getui",
+    "个推",
     "推送通知"
   ],
   "dependencies": {},

@@ -1,11 +1,12 @@
 /*
  * @Author: 姜彦汐
- * @Date: 2022-02-14 22:40:34
+ * @Date: 2022-02-06 21:23:45
  * @LastEditors: 姜彦汐
- * @LastEditTime: 2022-02-14 22:49:24
+ * @LastEditTime: 2022-02-24 14:45:03
  * @Description: 
  * @Site: https://www.undsky.com
  */
+
 module.exports = app => {
     app.addSingleton('unipush', init);
 }
