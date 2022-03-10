@@ -21,7 +21,7 @@ egg 2.x | egg 1.x
 
 ### 依赖的插件
 
-
+[nanoid](https://github.com/ai/nanoid)
 ## 开启插件
 
 ```js

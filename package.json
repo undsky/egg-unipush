@@ -1,6 +1,6 @@
 {
   "name": "egg-unipush",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Egg plugin for unipush",
   "eggPlugin": {
     "name": "unipush"
@@ -15,7 +15,9 @@
     "个推",
     "推送通知"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "nanoid": "^3.3.1"
+  },
   "devDependencies": {
     "autod": "^3.1.1",
     "autod-egg": "^1.1.0",
